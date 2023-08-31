@@ -32,8 +32,6 @@ public class AppController {
 
 
 
-
-
 	@GetMapping("all-users_v1/{id}")
 	public ResponseEntity<User> getById_v1(@PathVariable final long id) {
 		Map<String, String> params = new HashMap<>();
